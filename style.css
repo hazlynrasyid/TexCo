@@ -1,12 +1,44 @@
+@font-face {
+  font-family: "OriginalSurfer";
+  src: url(font/OriginalSurfer-Regular.ttf);
+}
+@font-face {
+  font-family: "Trop";
+  src: url(font/Tropical\ Vibe.ttf);
+}
+body{
+  font-family: 'OriginalSurfer';
+}
+
 .banner {
-    background: url("img/sean-pollock-PhYq704ffdA-unsplash.jpg")
-      no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color: #fff;
-    
-  }
+  height: 100vh;
+  background: url('img/frank-mckenna-OD9EOzfSOh0-unsplash.png') no-repeat center center/cover;
+  color: white;
+  font-family: 'Trop';
+  
+}
+.banner h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn-custom {
+  background-color: #e63946;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-custom:hover {
+  background-color: #d00000;
+}
   
   .lingkaran {
     display: inline-block;
