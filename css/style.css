@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bark";
-  src: url(./font/BerkshireSwash-Regular.ttf);
+  src: url(font/BerkshireSwash-Regular.ttf);
 }
 @font-face {
   font-family: "Trop";
-  src: url(./font/Tropical\ Vibe.ttf);
+  src: url(font/Tropical\ Vibe.ttf);
 }
 body{
   font-family: 'Bark';
