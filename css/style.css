@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Bark";
+  src: url(/font/BerkshireSwash-Regular.ttf);
+}
+@font-face {
+  font-family: "Trop";
+  src: url(/font/Tropical\ Vibe.ttf);
+}
+body{
+  font-family: 'Bark';
+}
+
+.banner {
+  height: 100vh;
+  background: url() no-repeat center center/cover;
+  color: white;
+  font-family: 'Trop';
+  
+}
+.banner h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn-custom {
+  background-color: #0099ff;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-custom:hover {
+  background-color: #038ce7;
+}
+  
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+  
+  a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+  }
+  
+  .client img {
+    height: auto;
+    max-height: 50px;
+  }
+  
+  .kontak {
+    background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  .tittle-head, .genre-head { 
+    color: #f3c325
+  }
+
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  .navbar.scrolled {
+    background-color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      background-color: #ffffff !important;
+    }
+  }
+
+.navbar-brand, .nav-link {
+    color: rgba(40, 40, 40, 0.9) !important;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: rgba(128, 128, 128, 1) !important;
+}
+.wave-separator {
+  width: 100%;
+  height: auto;
+  display: block; /* Flip the wave upside down */
+}
+@media (max-width: 768px) {
+  .navbar {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .wave-separator{
+    margin-bottom: -50px;
+  }
+}
+.layanan {
+  background-color: #0099ff;
+}
+.porto{
+  background-color: #0099ff;
+}
